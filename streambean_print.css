@@ -1,0 +1,203 @@
+/* @import "sheets-of-paper.css"; */
+
+.page {
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+
+  /* Reflect the paper width in the screen rendering (must match size from @page rule) */
+  width: 21cm;
+  /* Reflect the paper height in the screen rendering (must match size from @page rule) */
+  min-height: 29.7cm;
+
+  /* Reflect the actual page margin/padding on paper in the screen rendering (must match margin from @page rule) */
+  padding-left: 0.5cm;
+  padding-top: 0.5cm;
+  padding-right: 0.5cm;
+  padding-bottom: 0.5cm;
+}
+/* Use CSS Paged Media to switch from continuous documents to sheet-like documents with separate pages */
+@page {
+  /* You can only change the size, margins, orphans, widows and page breaks here */
+
+  /* Paper size and page orientation */
+  size: A4 portrait;
+
+  /* Margin per single side of the page */
+  margin-left: 0.5cm;
+  margin-top: 0.5cm;
+  margin-right: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+
+body {
+  margin-top: 20px;
+  color: #484b51;
+}
+.text-secondary-d1 {
+  color: #728299 !important;
+}
+.text-default-d2 {
+  font-size: 12px;
+}
+.page-header {
+  margin: 0 0 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  border-bottom: 1px dotted #e2e2e2;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.page-title {
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.brc-default-l1 {
+  border-color: #dce9f0 !important;
+}
+
+.ml-n1,
+.mx-n1 {
+  margin-left: -0.25rem !important;
+}
+.mr-n1,
+.mx-n1 {
+  margin-right: -0.25rem !important;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.text-grey-m2 {
+  color: #888a8d !important;
+}
+
+.text-success-m2 {
+  color: #86bd68 !important;
+}
+
+.font-bolder,
+.text-600 {
+  font-weight: 600 !important;
+}
+
+.text-110 {
+  font-size: 110% !important;
+}
+.text-blue {
+  color: #478fcc !important;
+}
+.pb-25,
+.py-25 {
+  padding-bottom: 0.75rem !important;
+}
+
+.pt-25,
+.py-25 {
+  padding-top: 0.75rem !important;
+}
+.bgc-default-tp1 {
+  /* background-color: rgba(121, 169, 197, 0.92) !important; */
+  background-color: #8fae29 !important;
+}
+.bgc-default-l4,
+.bgc-h-default-l4:hover {
+  background-color: #f3f8fa !important;
+}
+.page-header .page-tools {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.btn-light {
+  color: #757984;
+  background-color: #f5f6f9;
+  border-color: #dddfe4;
+}
+.w-2 {
+  width: 1rem;
+}
+
+.text-120 {
+  font-size: 120% !important;
+}
+.text-primary-m1 {
+  color: #4087d4 !important;
+}
+
+.text-danger-m1 {
+  color: #dd4949 !important;
+}
+.text-blue-m2 {
+  color: #68a3d5 !important;
+}
+.text-120 {
+  font-size: 120% !important;
+}
+.text-150 {
+  font-size: 150% !important;
+}
+.text-80 {
+  font-size: 80% !important;
+}
+.text-60 {
+  font-size: 60% !important;
+}
+.text-grey-m1 {
+  color: #7b7d81 !important;
+}
+.align-bottom {
+  vertical-align: bottom !important;
+}
+
+.logo-size {
+  width: 170px !important;
+}
+
+.page-width {
+  max-width: 1000px !important;
+}
+
+.total-bar {
+  background-color: #f9f9f9 !important;
+}
+
+.icon-size {
+  height: 10px !important;
+  width: 10px !important;
+  font-size: 15px !important;
+}
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.rounded-top-local {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+tbody > tr:nth-child(odd) > td {
+  background-color: #f9f9f9 !important;
+}
+
+.mr-n1,
+.mx-n1 {
+  margin-right: -0.25rem !important;
+}
+.ml-n1,
+.mx-n1 {
+  margin-left: -0.25rem !important;
+}
