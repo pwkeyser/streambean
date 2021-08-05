@@ -32,6 +32,12 @@
 }
 
 html, body {
+	/* Reset the document's margin values */
+	margin: 0;
+	/* Reset the document's padding values */
+	padding: 0;
+
+	/* Use a non-white background color */
   background-color: #eee;
 }
 
@@ -41,7 +47,7 @@ html, body {
 }
 
 body {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   color: #484b51;
 }
 .text-secondary-d1 {
