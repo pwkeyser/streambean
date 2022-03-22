@@ -12,11 +12,11 @@
   padding-right: 0.5cm;
   padding-bottom: 0.5cm;
 
-	/* margin: 1cm auto; */
+  /* margin: 1cm auto; */
 
-	background: #fff;
-	box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
-	outline: 0;
+  background: #fff;
+  box-shadow: 0 4px 5px rgba(75, 75, 75, 0.2);
+  outline: 0;
 }
 /* Use CSS Paged Media to switch from continuous documents to sheet-like documents with separate pages */
 @page {
@@ -32,19 +32,20 @@
   margin-bottom: 0.5cm;
 }
 
-html, body {
-	/* Reset the document's margin values */
-	margin: 0;
-	/* Reset the document's padding values */
-	padding: 0;
+html,
+body {
+  /* Reset the document's margin values */
+  margin: 0;
+  /* Reset the document's padding values */
+  padding: 0;
 
-	/* Use a non-white background color */
+  /* Use a non-white background color */
   background-color: #eee;
 }
 
 * {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 body {
@@ -171,12 +172,39 @@ hr {
 .text-80 {
   font-size: 80% !important;
 }
+.text-70 {
+  font-size: 70% !important;
+}
 .text-60 {
   font-size: 60% !important;
 }
 .text-grey-m1 {
   color: #7b7d81 !important;
 }
+
+.width-300 {
+  width: 300px !important;
+}
+.width-250 {
+  width: 250px !important;
+}
+.width-100 {
+  width: 100px !important;
+}
+.width-90 {
+  width: 90px !important;
+}
+.width-70 {
+  width: 70px !important;
+}
+.width-50 {
+  width: 50px !important;
+}
+
+.pre-formatted {
+  white-space: pre-wrap;
+}
+
 .align-bottom {
   vertical-align: bottom !important;
 }
